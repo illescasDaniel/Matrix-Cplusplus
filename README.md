@@ -6,7 +6,9 @@ File descriptions:
 - matrix.h: matrix methods headers.
 - matrix.cpp: implemented matrix methods, using the "vector" class.
 
-(Download: https://github.com/HDxDaniel/Matrix-Cplusplus/archive/master.zip)
+Download: https://github.com/HDxDaniel/Matrix-Cplusplus/archive/master.zip
+
+Use the makefile file to compile the example program (main.cpp).
 
 ----
 Sorry for my English.
