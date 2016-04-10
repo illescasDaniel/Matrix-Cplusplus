@@ -34,3 +34,4 @@ template class matrix <double>;
 template class matrix <float>;
 template class matrix <char>;
 template class matrix <string>;
+template class matrix <bool>;
