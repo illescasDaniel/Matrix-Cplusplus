@@ -1,5 +1,5 @@
 #include <iostream>
-#include "include/matrix.h" //
+#include "include/matrix.h"
 
 using namespace std;
 
@@ -23,6 +23,16 @@ int main(){
 	matrix<int> m2(m);
 	cout << m[11][8] << endl;
 
+
+	// New Empty matrix
+	matrix<bool> test;
+
+	// Resize the empty matrix
+	test.resize(10, 10);
+
+	// Inserts new value and show its content
+	test[5][5] = 1;
+	cout << test[5][5] << endl;
 
 	// pauses the program (optional)
 	cin.ignore();
