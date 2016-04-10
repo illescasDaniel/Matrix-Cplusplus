@@ -2,6 +2,9 @@
 #include <string>
 
 template <class T>
+matrix<T>::matrix() {}
+
+template <class T>
 matrix<T>::matrix(unsigned int x, unsigned int y){
 	resize(x,y);
 }
