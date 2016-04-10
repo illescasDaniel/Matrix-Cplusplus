@@ -11,6 +11,8 @@ class matrix {
 private:
 	vector< vector <T> > m;
 public:
+	matrix();
+
 	// Main constructor, builds a matrix using the size specified (X row x Y columns)
 	matrix(unsigned int x, unsigned int y);
 
