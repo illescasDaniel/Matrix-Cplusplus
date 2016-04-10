@@ -34,8 +34,8 @@ int main(){
 	test[5][5] = 1;
 	cout << test[5][5] << endl;
 
-	// pauses the program (optional)
+	//
 	cin.ignore();
-	
+
 	return 0;
 }
