@@ -8,7 +8,7 @@ File descriptions:
 
 Download: https://github.com/HDxDaniel/Matrix-Cplusplus/archive/master.zip
 
-Use the makefile file to compile the example program (main.cpp).
+Use the makefile to compile the example program (main.cpp).
 
 ----
 Sorry for my English.
