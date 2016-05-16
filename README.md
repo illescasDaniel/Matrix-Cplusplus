@@ -9,6 +9,3 @@ File descriptions:
 Download: https://github.com/HDxDaniel/Matrix-Cplusplus/archive/master.zip
 
 Use the makefile to compile the example program (main.cpp).
-
-----
-Sorry for my English.
