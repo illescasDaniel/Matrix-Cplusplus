@@ -26,7 +26,7 @@ public:
 	vector<T> & operator[] (unsigned int i);
 
 	// Clone a matrix
-	matrix & operator=(matrix & matrix);
+	matrix & operator=(const matrix & matrix);
 };
 
 #endif
