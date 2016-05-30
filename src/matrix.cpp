@@ -10,7 +10,7 @@ matrix<T>::matrix(unsigned int x, unsigned int y){
 }
 
 template <class T>
-matrix<T>::matrix(matrix& matrix){
+matrix<T>::matrix(const matrix& matrix){
 	*this = matrix;
 }
 
