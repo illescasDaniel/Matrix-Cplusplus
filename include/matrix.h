@@ -23,7 +23,7 @@ public:
 	void resize(unsigned int x, unsigned int y);
 
 	// Set or get a value of the matrix using the square brackets
-	vector<T> & operator[] (unsigned int i);
+	vector<T> & operator[] (unsigned int i) const;
 
 	// Clone a matrix
 	matrix & operator=(const matrix & matrix);
