@@ -20,7 +20,7 @@ void matrix<T>::resize(unsigned int x, unsigned int y){
 }
 
 template <class T>
-vector<T> & matrix<T>::operator[](unsigned int i) const {
+vector<T> & matrix<T>::operator[](unsigned int i){
 	return m[i];
 }
 
