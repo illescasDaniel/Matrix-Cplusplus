@@ -25,7 +25,7 @@ vector<T> & matrix<T>::operator[](unsigned int i) {
 }
 
 template <class T>
-matrix<T>& matrix<T>::operator=(matrix& matrix){
+matrix<T>& matrix<T>::operator=(const matrix& matrix){
 	m = matrix.m;
 	return (*this);
 }
