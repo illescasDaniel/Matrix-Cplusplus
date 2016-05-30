@@ -17,7 +17,7 @@ public:
 	matrix(unsigned int x, unsigned int y);
 
 	// Copy constructor
-	matrix(matrix & matrix);
+	matrix(const matrix & matrix);
 
 	// Resize a matrix providing its new size
 	void resize(unsigned int x, unsigned int y);
