@@ -5,7 +5,7 @@
 
 using namespace std;
 
-static int tam = 0;
+static unsigned long tam = 0;
 
 template <class T>
 class matrix {
@@ -25,9 +25,9 @@ public:
 	
 	matrix & operator=(const matrix & matrix) {	m = matrix.m; return (*this);}
 	
-	int size(){ return m.size(); } 
+	unsigned long size(){ return m.size(); }
 	
-	int colSize(){ return (m.empty() ? 0 : m[0].size()); } // Returns number of columns
+	unsigned long colSize(){ return (m.empty() ? 0 : m[0].size()); } // Returns number of columns
 
 	vector<typename vector<T>::iterator> begin() {
 		tam = colSize();

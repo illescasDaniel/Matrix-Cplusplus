@@ -15,11 +15,9 @@ int main() {
 	for (matrix<int>::iterator it(a.begin()); it != a.end(); ++it)
 		cout << *it << ' ';
     
-    b = a; //
+    b = a;
     
     for (matrix<int>::iterator it(a.begin()); it != a.end(); ++it)
         cout << *it << ' ';
-    
-	cin.ignore();
 
 }
