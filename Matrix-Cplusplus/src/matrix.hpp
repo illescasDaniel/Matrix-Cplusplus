@@ -5,7 +5,7 @@
 
 using namespace std;
 
-static unsigned long tam = 0;
+static unsigned long col_size = 0;
 
 template <class T>
 class matrix {
@@ -30,7 +30,7 @@ public:
 	unsigned long colSize(){ return (m.empty() ? 0 : m[0].size()); } // Returns number of columns
 
 	vector<typename vector<T>::iterator> begin() {
-		tam = colSize();
+		col_size = colSize();
 
 		vector<typename vector<T>::iterator> v;
 
@@ -65,7 +65,7 @@ public:
 		T & operator*(){ return *(it[posF] + posC); }
 		
 		void operator++() {
-			if ((posC + 1) < tam)
+			if ((posC + 1) < col_size)
 				posC++;
 			else if (unsigned(posF + 1) < it.size())
 				posF++, posC = 0;

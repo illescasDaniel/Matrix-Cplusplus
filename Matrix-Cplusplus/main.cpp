@@ -13,7 +13,7 @@ int main() {
 	a[3][4] = 1;
 
 	for (matrix<int>::iterator it(a.begin()); it != a.end(); ++it)
-		cout << *it << ' ';
+        cout << *it << ' ';
     
     b = a;
     
